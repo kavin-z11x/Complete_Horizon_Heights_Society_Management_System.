@@ -1,0 +1,380 @@
+{
+  "society": {
+    "name": "Horizon Heights Residency",
+    "address": "100 Horizon Boulevard, Tech Park Road, Sector 4",
+    "totalFlats": 120,
+    "registeredMembers": 115
+  },
+  "currentRole": "resident",
+  "currentUser": {
+    "id": "res_101",
+    "name": "John Doe",
+    "flatNo": "A-402",
+    "phone": "+91 98765 43210",
+    "email": "john.doe@horizon.org",
+    "role": "Resident"
+  },
+  "notices": [
+    {
+      "id": "not_1",
+      "title": "Annual General Body Meeting (AGM) 2026",
+      "category": "Event",
+      "priority": "High",
+      "date": "2026-09-15",
+      "content": "All residents are requested to join the AGM in the Clubhouse Auditorium at 6:00 PM. Discussion topics include solar panel installation and annual budget breakdown.",
+      "author": "Society Management",
+      "pinned": true
+    },
+    {
+      "id": "not_2",
+      "title": "Scheduled Water Supply Maintenance",
+      "category": "Maintenance",
+      "priority": "Urgent",
+      "date": "2026-09-10",
+      "content": "Overhead tank cleaning will take place on Sept 10th between 10:00 AM and 2:00 PM. Water supply will be interrupted. Please store sufficient water.",
+      "author": "Maintenance Dept",
+      "pinned": true
+    },
+    {
+      "id": "not_3",
+      "title": "Ganesh Chaturthi Festival Celebration",
+      "category": "Event",
+      "priority": "Normal",
+      "date": "2026-09-18",
+      "content": "Join us for cultural performances, food stalls, and evening Aarti at the central lawn. Volunteer entries open at the security office.",
+      "author": "Cultural Committee",
+      "pinned": false
+    },
+    {
+      "id": "not_4",
+      "title": "New Speed Limit & Parking Policy",
+      "category": "General",
+      "priority": "Normal",
+      "date": "2026-09-02",
+      "content": "Vehicles inside society premises must strictly maintain a maximum speed limit of 15 km/h. Unregistered guest parking will incur a fine.",
+      "author": "Security Committee",
+      "pinned": false
+    }
+  ],
+  "complaints": [
+    {
+      "id": "cmp_1",
+      "title": "Elevator B-Wing Making Strange Noise",
+      "category": "Elevator / Lift",
+      "flatNo": "B-201",
+      "postedBy": "Sarah Jenkins",
+      "date": "2026-09-07",
+      "priority": "High",
+      "status": "In Progress",
+      "description": "Lift B2 produces a loud scraping noise between 3rd and 4th floors. Needs urgent technician inspection."
+    },
+    {
+      "id": "cmp_2",
+      "title": "Low Water Pressure in Master Bathroom",
+      "category": "Plumbing",
+      "flatNo": "A-402",
+      "postedBy": "John Doe",
+      "date": "2026-09-06",
+      "priority": "Medium",
+      "status": "Pending",
+      "description": "Water inflow in master bathroom flush tank is extremely slow since yesterday evening."
+    },
+    {
+      "id": "cmp_3",
+      "title": "Corridor Light Bulb Fuse on 4th Floor",
+      "category": "Electrical",
+      "flatNo": "C-405",
+      "postedBy": "Rohan Gupta",
+      "date": "2026-09-04",
+      "priority": "Low",
+      "status": "Resolved",
+      "description": "The LED tube light near flat C-405 is flickering and went completely dark."
+    }
+  ],
+  "maintenance": [
+    {
+      "id": "mnt_2026_09",
+      "month": "September 2026",
+      "dueDate": "2026-09-15",
+      "amount": 3500,
+      "breakdown": {
+        "Society Maintenance": 2200,
+        "Water & Sanitation": 800,
+        "Sinking Fund": 300,
+        "Clubhouse Pass": 200
+      },
+      "status": "Pending",
+      "paidDate": null,
+      "transactionId": null
+    },
+    {
+      "id": "mnt_2026_08",
+      "month": "August 2026",
+      "dueDate": "2026-08-15",
+      "amount": 3500,
+      "breakdown": {
+        "Society Maintenance": 2200,
+        "Water & Sanitation": 800,
+        "Sinking Fund": 300,
+        "Clubhouse Pass": 200
+      },
+      "status": "Paid",
+      "paidDate": "2026-08-10",
+      "transactionId": "TXN_8849201948"
+    },
+    {
+      "id": "mnt_2026_07",
+      "month": "July 2026",
+      "dueDate": "2026-07-15",
+      "amount": 3500,
+      "breakdown": {
+        "Society Maintenance": 2200,
+        "Water & Sanitation": 800,
+        "Sinking Fund": 300,
+        "Clubhouse Pass": 200
+      },
+      "status": "Paid",
+      "paidDate": "2026-07-12",
+      "transactionId": "TXN_7739105432"
+    }
+  ],
+  "visitors": [
+    {
+      "id": "vis_101",
+      "visitorName": "Michael Scott",
+      "phone": "+91 91234 56789",
+      "flatNo": "A-402",
+      "hostName": "John Doe",
+      "purpose": "Guest / Family",
+      "expectedDate": "2026-09-08",
+      "expectedTime": "16:00",
+      "passCode": "PASS-8492",
+      "status": "Approved",
+      "checkInTime": null,
+      "checkOutTime": null
+    },
+    {
+      "id": "vis_102",
+      "visitorName": "Amazon Courier (David)",
+      "phone": "+91 99887 76655",
+      "flatNo": "B-104",
+      "hostName": "Priya Sharma",
+      "purpose": "Delivery",
+      "expectedDate": "2026-09-08",
+      "expectedTime": "11:30",
+      "passCode": "PASS-3910",
+      "status": "Checked In",
+      "checkInTime": "2026-09-08 11:35 AM",
+      "checkOutTime": null
+    },
+    {
+      "id": "vis_103",
+      "visitorName": "Urban Company AC Service Tech",
+      "phone": "+91 97766 55443",
+      "flatNo": "C-301",
+      "hostName": "Amitabh Roy",
+      "purpose": "Maintenance Service",
+      "expectedDate": "2026-09-08",
+      "expectedTime": "09:00",
+      "passCode": "PASS-1129",
+      "status": "Checked Out",
+      "checkInTime": "2026-09-08 09:10 AM",
+      "checkOutTime": "2026-09-08 10:45 AM"
+    }
+  ],
+  "amenities": [
+    {
+      "id": "amen_1",
+      "name": "Community Clubhouse Hall",
+      "category": "Events",
+      "capacity": "150 Persons",
+      "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=600&q=80",
+      "timing": "08:00 AM - 10:00 PM",
+      "pricePerHour": 500,
+      "status": "Available"
+    },
+    {
+      "id": "amen_2",
+      "name": "Synthetic Tennis Court",
+      "category": "Sports",
+      "capacity": "4 Players",
+      "image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=600&q=80",
+      "timing": "06:00 AM - 09:00 PM",
+      "pricePerHour": 0,
+      "status": "Available"
+    },
+    {
+      "id": "amen_3",
+      "name": "Olympic-Size Swimming Pool",
+      "category": "Leisure",
+      "capacity": "30 Persons",
+      "image": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=600&q=80",
+      "timing": "06:00 AM - 08:00 PM",
+      "pricePerHour": 0,
+      "status": "Available"
+    },
+    {
+      "id": "amen_4",
+      "name": "Rooftop Party Deck & BBQ",
+      "category": "Events",
+      "capacity": "50 Persons",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=600&q=80",
+      "timing": "05:00 PM - 11:00 PM",
+      "pricePerHour": 800,
+      "status": "Available"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bok_1",
+      "amenityId": "amen_1",
+      "amenityName": "Community Clubhouse Hall",
+      "flatNo": "A-402",
+      "userName": "John Doe",
+      "date": "2026-09-20",
+      "slot": "04:00 PM - 08:00 PM",
+      "status": "Confirmed"
+    },
+    {
+      "id": "bok_2",
+      "amenityId": "amen_2",
+      "amenityName": "Synthetic Tennis Court",
+      "flatNo": "B-104",
+      "userName": "Priya Sharma",
+      "date": "2026-09-09",
+      "slot": "07:00 AM - 08:00 AM",
+      "status": "Confirmed"
+    }
+  ],
+  "directory": [
+    {
+      "id": "dir_1",
+      "name": "John Doe",
+      "flatNo": "A-402",
+      "block": "A Wing",
+      "phone": "+91 98765 43210",
+      "email": "john.doe@horizon.org",
+      "occupancy": "Owner",
+      "members": 3
+    },
+    {
+      "id": "dir_2",
+      "name": "Priya Sharma",
+      "flatNo": "B-104",
+      "block": "B Wing",
+      "phone": "+91 98111 22334",
+      "email": "priya.s@horizon.org",
+      "occupancy": "Owner",
+      "members": 2
+    },
+    {
+      "id": "dir_3",
+      "name": "Sarah Jenkins",
+      "flatNo": "B-201",
+      "block": "B Wing",
+      "phone": "+91 97222 33445",
+      "email": "sarah.j@horizon.org",
+      "occupancy": "Tenant",
+      "members": 4
+    },
+    {
+      "id": "dir_4",
+      "name": "Amitabh Roy",
+      "flatNo": "C-301",
+      "block": "C Wing",
+      "phone": "+91 96333 44556",
+      "email": "amitabh.roy@horizon.org",
+      "occupancy": "Owner",
+      "members": 2
+    },
+    {
+      "id": "dir_5",
+      "name": "Rohan Gupta",
+      "flatNo": "C-405",
+      "block": "C Wing",
+      "phone": "+91 95444 55667",
+      "email": "rohan.gupta@horizon.org",
+      "occupancy": "Owner",
+      "members": 1
+    }
+  ],
+  "emergencyContacts": [
+    {
+      "id": "emg_1",
+      "service": "Main Security Gate Desk",
+      "contactPerson": "Chief Security Officer",
+      "phone": "+91 80000 11111",
+      "icon": "shield-check",
+      "type": "Internal"
+    },
+    {
+      "id": "emg_2",
+      "service": "24/7 Society Manager",
+      "contactPerson": "Mr. Rajesh Verma",
+      "phone": "+91 80000 22222",
+      "icon": "user-tie",
+      "type": "Internal"
+    },
+    {
+      "id": "emg_3",
+      "service": "On-Call Electrician & Plumber",
+      "contactPerson": "Quick Fix Desk",
+      "phone": "+91 80000 33333",
+      "icon": "tools",
+      "type": "Internal"
+    },
+    {
+      "id": "emg_4",
+      "service": "Nearby Emergency Hospital",
+      "contactPerson": "City Lifeline Hospital",
+      "phone": "+91 102 / 080-2999-8888",
+      "icon": "hospital",
+      "type": "External"
+    },
+    {
+      "id": "emg_5",
+      "service": "Police Station (Sector 4 Desk)",
+      "contactPerson": "Duty Inspector",
+      "phone": "+91 100 / 080-2555-1100",
+      "icon": "badge-police",
+      "type": "External"
+    },
+    {
+      "id": "emg_6",
+      "service": "Fire Brigade Control Room",
+      "contactPerson": "Fire Dispatch",
+      "phone": "+91 101",
+      "icon": "fire",
+      "type": "External"
+    }
+  ],
+  "polls": [
+    {
+      "id": "pol_1",
+      "question": "Should we install Solar Panels on terrace roofs to reduce common electricity costs by 40%?",
+      "category": "Infrastructure",
+      "endDate": "2026-09-20",
+      "status": "Active",
+      "totalVotes": 74,
+      "options": [
+        { "id": "opt_1", "text": "Yes, approve installation and budget", "votes": 58 },
+        { "id": "opt_2", "text": "No, stick to conventional grid", "votes": 12 },
+        { "id": "opt_3", "text": "Need more financial details", "votes": 4 }
+      ],
+      "userVotedOption": "opt_1"
+    },
+    {
+      "id": "pol_2",
+      "question": "Preferred timing for weekend children's swimming coaching classes?",
+      "category": "Sports & Youth",
+      "endDate": "2026-09-25",
+      "status": "Active",
+      "totalVotes": 42,
+      "options": [
+        { "id": "opt_a", "text": "Saturday & Sunday Morning (8 AM - 9:30 AM)", "votes": 24 },
+        { "id": "opt_b", "text": "Saturday & Sunday Evening (5 PM - 6:30 PM)", "votes": 18 }
+      ],
+      "userVotedOption": null
+    }
+  ]
+}

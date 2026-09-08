@@ -1,0 +1,20 @@
+{
+  "name": "horizon-heights-residency",
+  "version": "1.0.0",
+  "description": "Horizon Heights Residency - Smart Society & Resident Management Web Application",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "society-management",
+    "resident-portal",
+    "gatekeeper",
+    "mygate-alternative",
+    "amenity-booking"
+  ],
+  "author": "Horizon Heights Resident Welfare Association",
+  "license": "MIT"
+}
